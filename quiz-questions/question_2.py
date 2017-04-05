@@ -29,7 +29,11 @@ def number_of_customers_per_state(customers):
     }
     """
     # Write your code here
-    pass
+new_dict = []
+for key, value in customers.items():
+    return(key, len([i for i in value if i]))
+
+#completely blanked out tonight it seems, not sure if this is the right direction at all.
 
 
 class NumberOfCustomersPerStateTestCase(unittest.TestCase):
